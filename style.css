@@ -89,32 +89,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.card_emoji{
-    position: absolute;
-    height: 70px;
-    margin: 0 40px;
-    bottom: -1px;
-    right: 20px;
-    top: 85px;
-    transform: rotate(-2.5deg);
-    width: 100px;
-}
-.emoji_types::before, .emoji_types::after{
-    content: '';
-    height: 30px;
-    position: absolute;
-    width: 30px;
-}
-
-.emoji_types::before{
-    top: -15px;
-    left: 0px;
-}
-.emoji_types::after{
-    left: 15px;
-    top: 0px;
-}
 .front{
     position: absolute;
     border-right: 180px solid rgb(116, 38, 68);
